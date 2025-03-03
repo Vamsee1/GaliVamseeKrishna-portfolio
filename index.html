@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- SEO Meta Tags -->
+    <!-- SEO Meta Tags -->
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <meta
+      name="description"
+      content="Vamsee Krishna - Full Stack Developer specializing in React, Python, and Java. View my portfolio showcasing web development projects, skills, and professional experience."
+    />
+    <meta
+      name="keywords"
+      content="Vamsee Krishna, Web Developer, Full Stack Developer, React Developer, Python Developer, Portfolio, Software Engineer, Java Developer"
+    />
+    <meta name="author" content="Vamsee Krishna" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-portfolio-url.com" />
+    <meta
+      property="og:title"
+      content="Vamsee Krishna - Full Stack Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Experienced Full Stack Developer specializing in modern web technologies. View my projects and skills."
+    />
+    <meta property="og:image" content="./" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-portfolio-url.com" />
+    <meta
+      property="twitter:title"
+      content="Vamsee Krishna - Full Stack Developer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Experienced Full Stack Developer specializing in modern web technologies. View my projects and skills."
+    />
+    <meta property="twitter:image" content="./Images/VK PHOTO.png" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Images/Fav-icon-logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Images/Fav-icon-logo.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Images/Fav-icon-logo.png"
+    />
+
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Vamsee Krishna - Full Stack Developer Portfolio</title>
+
+    <!-- Font Awesome and AOS Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome and AOS Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css"
+    />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            Vamsee <span>Krishna</span>
+          </div>
+          <div class="links">
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              <a href="#home">Home</a>
+            </div>
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              <a href="#about">About</a>
+            </div>
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              <a href="#skills">Skills</a>
+            </div>
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              <a href="#timeline">Education</a>
+            </div>
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
+              <a href="#certificates">Certificates</a>
+            </div>
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="600"
+            >
+              <a href="#services">Projects</a>
+            </div>
+            <div
+              class="link"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="600"
+            >
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+          <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#timeline">Education</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#services">Projects</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="./Images/VK PHOTO.png" alt="Vamsee Krishna" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Vamsee Krishna</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a <span class="typewriter-text"></span><label>|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            I am a highly motivated Computer Science Engineer with expertise in
+            C, Python, Java, and more. Passionate about software engineering and
+            continuously learning to innovate.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/Vamsee1"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/vamsee-krishna-gali-746097257"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://x.com/Gvks_2003"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <button
+              onclick="window.location.href='https://vamsee1.github.io/Digital-Resume-1/'"
+            >
+              Hire Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <img
+            data-aos="fade-up"
+            src="./Images/VK PHOTO.png"
+            alt="Profile Picture"
+          />
+        </div>
+        <div class="about-content">
+          <h2 data-aos="fade-up">About Me</h2>
+          <h1 data-aos="fade-up">Vamsee Krishna is a Web Designer.</h1>
+          <p data-aos="fade-up" data-aos-delay="100">
+            I am a Web developer, and I'm very passionate and dedicated to my
+            work. With years experience as a professional Web developer, I have
+            acquired the skills and knowledge necessary to make your project a
+            success.
+          </p>
+          <a
+            data-aos="fade-up"
+            href="./Images/Vamsee Resume3.pdf"
+            download
+            class="download-btn"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section (with logos/icons) -->
+    <section id="skills" class="skills-section">
+      <div class="skills-container">
+        <h2 data-aos="fade-up">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill" data-aos="fade-up" data-aos-delay="100">
+            <i class="fab fa-html5 skill-icon"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="200">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="300">
+            <i class="fab fa-js skill-icon"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="400">
+            <i class="fab fa-python skill-icon"></i>
+            <span>Python</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="500">
+            <i class="fab fa-java skill-icon"></i>
+            <span>Java</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="600">
+            <i class="fab fa-react skill-icon"></i>
+            <span>React</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="800">
+            <i class="fas fa-database skill-icon"></i>
+            <!-- MySQL logo (Database) -->
+            <span>SQL</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="900">
+            <i class="fas fa-robot skill-icon"></i>
+            <!-- AI logo (Robot) -->
+            <span>AI</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="1000">
+            <i class="fab fa-node-js skill-icon"></i>
+            <span>NodeJs</span>
+          </div>
+          <div class="skill" data-aos="fade-up" data-aos-delay="1100">
+            <i class="fab fa-bootstrap skill-icon"></i>
+            <!-- Corrected class -->
+            <span>Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section (Vertical Timeline for three titles) -->
+    <section id="timeline" class="experience-section">
+      <h1>Education</h1>
+      <div class="timeline">
+        <!-- Timeline items remain the same as previous code -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2020 - 2024</div>
+            <div class="timeline-title">Bachelor's Degree</div>
+            <div class="timeline-description">
+              Pursuing my Bachelor's of computer application from K.S.R.M
+              College of Engineering
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2024 - Present</div>
+            <div class="timeline-title">Website Designing</div>
+            <div class="timeline-description">
+              I have a rich experience in website designing and development.
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2018 - 2020</div>
+            <div class="timeline-title">Higher Secondary</div>
+            <div class="timeline-description">
+              Completed my higher secondary education from DattaSai Jr College
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2024 - Completed</div>
+            <div class="timeline-title">
+              Novel Secure and Robust Encryption Scheme
+            </div>
+            <div class="timeline-description">
+              I have a great experience in software designing and development.
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2017 - 2018</div>
+            <div class="timeline-title">Secondary Education</div>
+            <div class="timeline-description">
+              Completed my secondary education from Z.P.High School
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2023 - Completed</div>
+            <div class="timeline-title">DataScience Intern</div>
+            <div class="timeline-description">
+              I have Excellent experience in DataScience. My first priority is
+              customer satisfaction.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+      <div class="certificates-container">
+        <h2 data-aos="fade-up">Certificates</h2>
+        <div class="certificates-grid">
+          <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="certificate-image">
+              <img
+                src="./Certifications/MICROSOFT CERTIFICATE.jpg"
+                alt="Microsoft Azure Fundamentals (MAF)"
+              />
+            </div>
+            <div class="certificate-content">
+              <h3>Microsoft Azure Fundamentals (MAF)</h3>
+              <p>Microsoft Certified Azure Fundamentals 2022.</p>
+              <a
+                href="#"
+                class="view-btn"
+                data-certificate="./Certifications/MICROSOFT CERTIFICATE.jpg"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <div class="certificate-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="certificate-image">
+              <img
+                src="./Certifications/DataScience Certificate.jpg"
+                alt="DataScience Certificate"
+              />
+            </div>
+            <div class="certificate-content">
+              <h3>FutureSkills Prime (NASSCOM)</h3>
+              <p>FutureSkills Prime (NASSCOM) Certified Associate DataScience For the Beginners 2023.</p>
+              <a
+                href="#"
+                class="view-btn"
+                data-certificate="./Certifications/DataScience Certificate.jpg"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <div class="certificate-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="certificate-image">
+              <img
+                src="./Certifications/Employability Skill Certificate.jpg"
+                alt="Employability Skill Certificate"
+              />
+            </div>
+            <div class="certificate-content">
+              <h3>Employability Skills</h3>
+              <p>APSSDC(Wadhwani Foundation) Certified Associate Employability Skills 2024.</p>
+              <a
+                href="#"
+                class="view-btn"
+                data-certificate="./Certifications/Employability Skill Certificate.jpg"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <div class="certificate-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="certificate-image">
+              <img
+                src="./Certifications/CyberSecurity Certificate.jpg"
+                alt="CyberSecurity Certificate"
+              />
+            </div>
+            <div class="certificate-content">
+              <h3>FutureSkills Prime (NASSCOM)</h3>
+              <p>FutureSkills Prime (NASSCOM) Certified Associate CyberSecurity the Fundamentals 2023.</p>
+              <a
+                href="#"
+                class="view-btn"
+                data-certificate="./Certifications/CyberSecurity Certificate.jpg"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <div class="certificate-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="certificate-image">
+              <img
+                src="./Certifications/Final Project Certificate.jpg"
+                alt="A Novel Secure and Robust Encryption Scheme For medical videos, images and reports"
+              />
+            </div>
+            <div class="certificate-content">
+              <h3>International Conference on Advancement (ICASTM)</h3>
+              <p>ICASTM Certified Associate A Novel Secure and Robust Encryption Scheme 2024.</p>
+              <a
+                href="#"
+                class="view-btn"
+                data-certificate="./Certifications/Final Project Certificate.jpg"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <div class="certificate-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="certificate-image">
+              <img
+                src="./Certifications/Data Analytics Certificate.jpg"
+                alt="Data Analytics and Visualization"
+              />
+            </div>
+            <div class="certificate-content">
+              <h3>Data Analytics and Visualization</h3>
+              <p>
+                Certificate of Completion in Associate Data Analytics and Visualization
+                Job Simulation.
+              </p>
+              <a
+                href="#"
+                class="view-btn"
+                data-certificate="./Certifications/Data Analytics Certificate.jpg"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate Popup Modal -->
+    <div id="certificateModal" class="certificate-modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img id="modalImage" src="" alt="Certificate" />
+        <div class="modal-buttons">
+          <a id="downloadBtn" href="#" download class="download-certificate"
+            >Download</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Section -->
+
+    <section id="services" class="projects-section">
+      <h2 class="section-title">Projects</h2>
+      <!-- Swiper Container -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Project 1 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <img
+                src="./Images/e-commerce (1).jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <h3 class="project-title">E-Commerce Website</h3>
+              <p class="project-description">
+                A full-stack e-commerce platform built with modern technologies
+                and best practices.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <img
+                src="./Images/Portfolio-project.png"
+                alt="Project 2"
+                class="project-image"
+              />
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">
+                A beautiful and intuitive Portfolio web-application with
+                real-time updates.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <img
+                src="./Images/Weather.jpg"
+                alt="Project 3"
+                class="project-image"
+              />
+              <h3 class="project-title">Weather Dashboard</h3>
+              <p class="project-description">
+                A weather forecasting dashboard with interactive maps and
+                detailed analytics.
+              </p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">APIs</span>
+                <span class="tag">Charts.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <img
+                src="./Images/Task Management.jpg"
+                alt="Project 4"
+                class="project-image"
+              />
+              <h3 class="project-title">Task Manager App</h3>
+              <p class="project-description">
+                A beautiful and intuitive task management application with
+                real-time updates.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Vue.js</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <img
+                src="./Images/Fitness photo.jpg"
+                alt="Project 5"
+                class="project-image"
+              />
+              <h3 class="project-title">Mobile Fitness App</h3>
+              <p class="project-description">
+                A comprehensive fitness tracking application with personalized
+                workout plans and nutrition.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Redux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Pagination Dots -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-info">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <h1>Get in Touch</h1>
+
+        <div data-aos="fade-up" class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-text">
+            <span>Address:</span>
+            Kadapa, Ap
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="info-item">
+          <div class="info-icon">✉️</div>
+          <div class="info-text">
+            <span>Mail:</span>
+            gvks.2003@gmail.com
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-text">
+            <span>Phone:</span>
+            +91 9642526950
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="info-item">
+          <div class="info-icon">🔗</div>
+          <div class="info-text">
+            <span>Social:</span>
+            Fb. Tw. In. Be.
+          </div>
+        </div>
+      </div>
+      <form action="https://formsubmit.co/gvks.2003@gmail.com" method="POST" data-aos="fade-up" data-aos-delay="100" class="contact-form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Vamsee Krishna. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#timeline">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Arrow Section -->
+    <div class="scroll-arrow scroll-up" onclick="scrollToTop()">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+    <div class="scroll-arrow scroll-down" onclick="scrollToBottom()">
+      <i class="fas fa-arrow-down"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
